@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>React Count Down Demo</title>
+<style>
+html,body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+#root{
+  height: 100%;
+}
+.container{
+  width: 980px;
+  height: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+/*美化倒计时*/
+.countDown{
+  line-height: 50px;
+  overflow: hidden;
+}
+.countDown h5{
+  margin: 0;
+}
+
+.countDown div,
+.countDown span,
+.countDown em{
+  float: left;
+  height: 50px;
+}
+.countDown > span{
+  color: #666;
+  font-size: 28px;
+}
+.countDown > div{
+  margin: 0 .20px;
+}
+.countDown > div span{
+  padding: 0 10px;
+  color: #f8f8f8;
+  font-size: 30px;
+  background-color: #333;
+  border-radius: 6px;
+}
+.countDown em{
+  width: 40px;
+  color: #666;
+  font-size: 30px;
+  font-style: normal;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+  <div id="root"></div>
+</body>
+</html>
