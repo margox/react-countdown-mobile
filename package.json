@@ -1,14 +1,22 @@
 {
   "name": "react-countdown-mobile",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "a simple react countdown component",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "rm -rf dist/ && ./node_modules/.bin/babel src --copy-files --source-maps --extensions .es6,.es,.js,.jsx --out-dir dist",
     "prepublish": "npm run build",
     "sample": "webpack-dev-server -d --history-api-fallback --hot --inline --progress --colors --port 5998",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/margox/react-countdown-mobile.git"
+  },
+  "keywords": [
+    "react",
+    "countdown"
+  ],
   "author": "Margox",
   "license": "MIT",
   "devDependencies": {
